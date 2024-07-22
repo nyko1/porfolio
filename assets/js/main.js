@@ -198,6 +198,13 @@ $(function(){
     
     // });
 
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const downloadBtn = document.querySelector('.theme-btn');
+    
+        downloadBtn.addEventListener('click', (e) => {
+            console.log('Téléchargement du CV...');
+        });
+    });
     
 
 });
